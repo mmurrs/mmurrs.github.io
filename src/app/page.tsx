@@ -1,6 +1,5 @@
 'use client';
 
-// Force deployment update - 2025-01-28
 import { useState } from 'react';
 import { Github, Twitter, Linkedin, MapPin } from 'lucide-react';
 

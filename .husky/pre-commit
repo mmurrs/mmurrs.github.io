@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Run lint-staged for file-level checks
+npx lint-staged
+
+# Quick build check to ensure everything compiles
+echo "🔍 Running build check..."
+npm run validate
